@@ -1,0 +1,195 @@
+{
+  "ligas": [
+    {
+      "id": "fms-arg",
+      "nombre": "FMS Argentina",
+      "abrev": "ARG",
+      "pais": "ar",
+      "colores": {
+        "primario": "#74ACDF",
+        "secundario": "#FFFFFF",
+        "acento": "#F6B40E",
+        "texto-header": "#FFFFFF",
+        "fondo-header": "#2C5F8A",
+        "eyebrow": "#74ACDF"
+      },
+      "temporadas": [
+        {
+          "id": "t7",
+          "label": "Temporada 7",
+          "jurados": [
+            { "id": "cno",     "name": "CNO",     "initials": "CN" },
+            { "id": "juancin", "name": "Juancin", "initials": "JC" },
+            { "id": "tata",    "name": "Tata",    "initials": "TT" },
+            { "id": "gabino",  "name": "Gabino",  "initials": "GB" },
+            { "id": "maxi",    "name": "Maxi",    "initials": "MX" }
+          ],
+          "jornadas": [
+            { "id": "j1",    "label": "Fecha 1" },
+            { "id": "j2",    "label": "Fecha 2" },
+            { "id": "j3",    "label": "Fecha 3" },
+            { "id": "j4",    "label": "Fecha 4" },
+            { "id": "final", "label": "Final"   }
+          ],
+          "batallas": [
+            {
+              "id": "b1",
+              "jornada": "j1",
+              "mc1": "HDR",
+              "mc2": "EXE",
+              "youtube": "https://www.youtube.com/watch?v=NuuzxnEF-ms",
+              "votes": {
+                "cno": "replica", "juancin": "mc2", "tata": "mc2", "gabino": "mc2", "maxi": "mc2"
+              }
+            },
+            {
+              "id": "b2",
+              "jornada": "j1",
+              "mc1": "MP",
+              "mc2": "Dybbuk",
+              "youtube": "https://www.youtube.com/watch?v=ng_nyPx66jw",
+              "votes": {
+                "cno": "mc2", "juancin": "mc2", "tata": "mc2", "gabino": "mc2", "maxi": "mc2"
+              }
+            },
+            {
+              "id": "b3",
+              "jornada": "j1",
+              "mc1": "Mecha",
+              "mc2": "Abel",
+              "youtube": "https://www.youtube.com/watch?v=gkW2cujL3es",
+              "votes": {
+                "cno": "mc1", "juancin": "mc1", "tata": "mc1", "gabino": "mc2", "maxi": "mc1"
+              }
+            },
+            {
+              "id": "b4",
+              "jornada": "j1",
+              "mc1": "Teorema",
+              "mc2": "Sophia",
+              "youtube": "https://www.youtube.com/watch?v=0_YBNb64k8M",
+              "votes": {
+                "cno": "mc1", "juancin": "mc1", "tata": "mc1", "gabino": "mc1", "maxi": "mc1"
+              }
+            },
+            {
+              "id": "b5",
+              "jornada": "j2",
+              "mc1": "Abel",
+              "mc2": "Dybbuk",
+              "youtube": "https://www.youtube.com/watch?v=4BPHUVPNpSs",
+              "votes": {
+                "cno": "mc2", "juancin": "mc1", "tata": "mc2", "gabino": "mc2", "maxi": "mc2"
+              }
+            },
+            {
+              "id": "b6",
+              "jornada": "j3",
+              "mc1": "Sophia",
+              "mc2": "HDR",
+              "youtube": "https://www.youtube.com/watch?v=s-G1qaeV2zA",
+              "votes": {
+                "cno": "mc2", "juancin": "mc2", "tata": "mc2", "gabino": "mc2", "maxi": "mc2"
+              }
+            },
+            {
+              "id": "b7",
+              "jornada": "j4",
+              "mc1": "Mecha",
+              "mc2": "Exe",
+              "youtube": "https://www.youtube.com/watch?v=Acytae7Sig8",
+              "votes": {
+                "cno": "mc1", "juancin": "mc2", "tata": "mc2", "gabino": "mc1", "maxi": "mc1"
+              }
+            },
+            {
+              "id": "b8",
+              "jornada": "final",
+              "mc1": "Mecha",
+              "mc2": "Teorema",
+              "youtube": "https://www.youtube.com/watch?v=MOJmdsY9q-o",
+              "votes": {
+                "cno": "mc1", "juancin": "mc2", "tata": "mc1", "gabino": "mc1", "maxi": "mc1"
+              }
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "fms-mex",
+      "nombre": "FMS México",
+      "abrev": "MEX",
+      "pais": "mx",
+      "colores": {
+        "primario": "#006847",
+        "secundario": "#FFFFFF",
+        "acento": "#CE1126",
+        "texto-header": "#FFFFFF",
+        "fondo-header": "#004d35",
+        "eyebrow": "#CE1126"
+      },
+      "temporadas": [
+        {
+          "id": "t6",
+          "label": "Temporada 6",
+          "jurados": [
+            { "id": "rc", "name": "RC", "initials": "RC" },
+            { "id": "zticma", "name": "Zticma", "initials": "ZT" },
+            { "id": "danger", "name": "Danger", "initials": "DG" },
+            { "id": "gino", "name": "Gino", "initials": "GN" },
+            { "id": "tessla", "name": "Tessla", "initials": "TL" }
+          ],
+          "jornadas": [
+            { "id": "j1",    "label": "Fecha 1" },
+            { "id": "j2",    "label": "Fecha 2" },
+            { "id": "final", "label": "Final"   }
+          ],
+          "batallas": [
+            {
+              "id": "mx-b1",
+              "jornada": "j1",
+              "mc1": "Azuky",
+              "mc2": "Lobo Estepario",
+              "youtube": "https://www.youtube.com/watch?v=j_Ng_l_Gx7k",
+              "votes": {
+                "rc": "mc1", "zticma": "mc1", "danger": "mc1", "gino": "mc1", "tessla": "mc1"
+              }
+            },
+            {
+              "id": "mx-b2",
+              "jornada": "j2",
+              "mc1": "Marithea",
+              "mc2": "Skone",
+              "youtube": "https://www.youtube.com/watch?v=0li_5IcPKlY",
+              "votes": {
+                "rc": "mc1", "zticma": "mc1", "danger": "mc1", "gino": "mc1", "tessla": "mc1"
+              }
+            },
+            {
+              "id": "mx-b3",
+              "jornada": "final",
+              "mc1": "Nota Roja",
+              "mc2": "Azuky",
+              "youtube": "https://www.youtube.com/watch?v=qRzjW8v9MAY",
+              "votes": {
+                "rc": "replica", "zticma": "mc1", "danger": "mc1", "gino": "mc1", "tessla": "mc1"
+              }
+            },
+            {
+              "id": "mx-b4",
+              "jornada": "final",
+              "mc1": "Jony Beltrán",
+              "mc2": "Marithea",
+              "youtube": "https://www.youtube.com/watch?v=gmVtDWFNTzE",
+              "votes": {
+                "rc": "mc1", "zticma": "mc1", "danger": "mc1", "gino": "mc1", "tessla": "mc1"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

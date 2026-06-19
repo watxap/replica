@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FMS — ¿Qué jurado sos?</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/js.js"></script>
+</head>
+<body>
+
+  <!-- El JS renderiza el contenido del header dinámicamente -->
+  <header id="main-header"></header>
+
+  <div class="hero">
+    <div class="hero-eyebrow" id="hero-eyebrow">—</div>
+    <h1>¿Con qué<br><span class="glitch-word" id="glitch-title">jurado FMS</span><br><em>coincidís?</em></h1>
+    <p id="hero-desc">Votá el ganador de cada batalla según tu criterio y descubrí qué tanto coincide tu ojo con cada jurado.</p>
+  </div>
+
+  <div class="main">
+    <div class="filter-bar" id="filter-bar"></div>
+    <div class="battles-grid" id="battles-grid"></div>
+  </div>
+
+  <div class="bottom-bar" id="bottom-bar">
+    <div>
+      <div class="vote-counter"><strong id="vote-count">0</strong> batallas votadas</div>
+      <button class="reset-btn" onclick="resetAll()">Reiniciar votos</button>
+    </div>
+    <button class="calc-btn" id="calc-btn" onclick="showResults()">VER MI AFINIDAD</button>
+  </div>
+
+  <!-- VIDEO MODAL -->
+  <div class="video-overlay" id="video-overlay" onclick="closeVideo(event)">
+    <div class="video-modal">
+      <div class="video-header">
+        <div class="video-title" id="video-title">— <span class="vs">vs</span> —</div>
+        <button class="video-close" onclick="closeVideoPanel()">×</button>
+      </div>
+      <div class="video-wrapper">
+        <iframe id="video-iframe" src="" allowfullscreen allow="autoplay; encrypted-media"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- RESULTS MODAL -->
+  <div class="modal-overlay" id="results-modal" onclick="closeResults(event)">
+    <div class="modal">
+      <div class="modal-eyebrow">Tu criterio</div>
+      <h2 id="res-top-name">—</h2>
+      <div class="modal-sub" id="res-sub">Calculando...</div>
+      <div id="results-list"></div>
+      <button class="modal-close" onclick="closeResults()">Cerrar</button>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer">
+      Este sitio es un fan project no oficial, creado con fines didácticos. No está afiliado ni respaldado por Urban Roosters.
+    </div>
+  </footer>
+
+</body>
+</html>
